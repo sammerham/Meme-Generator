@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meme Generator</title>
+    <meta name="description" content="Make your own memes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id = "titlememe">
+            Make your own Meme!
+        </div>
+        <br>
+        <br>
+        <br>
+        <form id="memeform" action="">
+            <span class= "label">Image URL:</span><input type="url" name="imglink" class= "textbox" id="imgurl" value= "" placeholder="Insert image URL here" /><br>
+            <br>
+            <span class= "label">Top Text:</span><input type="text" name="texttop" class= "textbox" id= "toptext" placeholder= "Insert your text here (Optional)"><br>
+            <br>
+            <span class= "label">Bottom Text:</span><input type="text" name="textbottom" class= "textbox" id= "bottomtext" placeholder= "Insert your text here (Optional)"><br>
+            <br>
+            <input id= "button" type= "submit" value = "Make Meme!">
+        </form>
+    </header>
+    <section>
+        <div id= "memes">
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

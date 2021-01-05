@@ -1,0 +1,73 @@
+header{
+    border: 50px solid white;
+}
+#titlememe{
+    text-align: left;
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    color: rgb(84, 65, 97);
+}
+
+.label{
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Cabin Sketch', cursive;
+    color:rgb(84, 65, 97);
+}
+.textbox{
+    position: absolute;
+    height: 25px;
+    width: 500px;
+    right: 250px;;
+    left: 250px;;
+    
+}
+#button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 60px;
+    align-content: left;
+    width: 150px;
+    background-color: #868e8f;
+    color:rgb(77, 14, 119);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+}
+
+.parent-div{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.top-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    top: 0px;
+    font-size: 50px;
+    font-family: 'Cabin Sketch', cursive;
+    color:rgb(255, 248, 220);
+    padding: 40px;
+}
+.bottom-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+    font-size: 50px;
+    font-family: 'Cabin Sketch', cursive;
+    color:rgb(255, 248, 220);
+    padding: 40px;
+}
+
+
